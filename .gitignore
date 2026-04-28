@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# env
+.env
+
+# build
+dist/
+build/
+
+# logs
+*.log
+
+# OS
+.DS_Store
+.vscode/
+.idea/
+
+# secrets
+serviceAccountKey.json
+firebase-adminsdk.json
