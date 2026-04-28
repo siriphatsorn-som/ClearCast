@@ -21,8 +21,8 @@ Users can explore live weather conditions, read weather news, upload photos base
 - Upload photos based on current weather conditions
 - Automatic Photo Score (0–10) calculation
 - Weather-based feedback:
-  - Good for Photography
-  - Not Ideal
+  - "🌟 Perfect conditions! The light is magical right now. Go shoot!"
+  - 🌧️ Tough conditions, but rain brings unique opportunities — try shooting through wet glass!"
 
 ### Community Gallery
 - Users can upload and share photos
@@ -33,3 +33,51 @@ Users can explore live weather conditions, read weather news, upload photos base
 - Users can write reviews for each location (city-based)
 - View community feedback per city
 - Includes weather context with each review
+
+## Tech Stack
+
+### Frontend
+- React (Vite)
+- TailwindCSS
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+Firebase Firestore (NoSQL cloud database)
+
+### External APIs
+- Weather API (weatherapi.com)
+- News API (gnews.io)
+
+# Project Architecture
+Frontend (React) → Backend (Express API) → Firebase Firestore + External APIs
+
+## Installation
+
+1. Clone Repository
+git clone https://github.com/siriphatsorn-som/ClearCast.git
+cd clearcast
+
+2. Backend Setup
+cd backend
+npm install
+npm run dev
+
+Backend runs on : http://localhost:5000
+
+3. Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+Frontend runs on : http://localhost:5173
+
+4. Run Both 
+You can run both frontend and backend simultaneously using the root script:
+
+npm run dev
+
+This will start : Backend and Frontend 
