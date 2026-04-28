@@ -55,29 +55,55 @@ Firebase Firestore (NoSQL cloud database)
 # Project Architecture
 Frontend (React) → Backend (Express API) → Firebase Firestore + External APIs
 
-## Installation
+## Installation & Setup
 
-1. Clone Repository
+### Prerequisites
+- Node.js (v18+)
+- npm
+
+---
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/siriphatsorn-som/ClearCast.git
-cd clearcast
+cd ClearCast
+```
 
-2. Backend Setup
+---
+
+### 2. Backend Setup
+
+```bash
 cd backend
 npm install
 npm run dev
+```
 
-Backend runs on : http://localhost:5000
+> Runs on: **http://localhost:5000**
 
-3. Frontend Setup
+---
+
+### 3. Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
-Frontend runs on : http://localhost:5173
+> Runs on: **http://localhost:5173**
 
-4. Run Both 
-You can run both frontend and backend simultaneously using the root script:
+---
 
+### 4. Run Both Simultaneously
+
+From the **root directory**, you can start both frontend and backend at once:
+
+```bash
 npm run dev
+```
 
-This will start : Backend and Frontend 
+This will launch:
+- ✅ Backend → http://localhost:5000
+- ✅ Frontend → http://localhost:5173
