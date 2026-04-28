@@ -22,7 +22,7 @@ Users can explore live weather conditions, read weather news, upload photos base
 - Automatic Photo Score (0–10) calculation
 - Weather-based feedback:
   - "🌟 Perfect conditions! The light is magical right now. Go shoot!"
-  - 🌧️ Tough conditions, but rain brings unique opportunities — try shooting through wet glass!"
+  - "🌧️ Tough conditions, but rain brings unique opportunities — try shooting through wet glass!"
 
 ### Community Gallery
 - Users can upload and share photos
@@ -57,20 +57,12 @@ Frontend (React) → Backend (Express API) → Firebase Firestore + External API
 
 ## Installation & Setup
 
-### Prerequisites
-- Node.js (v18+)
-- npm
-
----
-
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/siriphatsorn-som/ClearCast.git
 cd ClearCast
 ```
-
----
 
 ### 2. Backend Setup
 
@@ -82,7 +74,6 @@ npm run dev
 
 > Runs on: **http://localhost:5000**
 
----
 
 ### 3. Frontend Setup
 
@@ -93,8 +84,6 @@ npm run dev
 ```
 
 > Runs on: **http://localhost:5173**
-
----
 
 ### 4. Run Both Simultaneously
 
